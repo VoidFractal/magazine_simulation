@@ -1,0 +1,6 @@
+Toyota_MR2, when_produced
+Ford_Probe, what_engine_capacity
+Mazda_Miata, what_engine_capacity
+Toyota_MR2, how_many_windshields
+Cube_401300 AIM Pro, how_many_entrances
+Cube_401300 AIM Pro, how_many_windshields
