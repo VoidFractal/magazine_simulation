@@ -1,0 +1,18 @@
+This program is simple simulation of store with cars, buses and bikes. 
+The client is asking the questions about vehicles. Questions are contained in the question_file.txt (this file can contain more than one question).
+
+The format of question is following: 
+Brand_Model, question_from_the_list_of_questions (list_of_questions.txt)
+Example: Ford_Probe, what_engine_capacity
+
+
+There is a "virtual magazine". This "magazine" contains concrete vehicels in files: cars.txt,  buses.txt and bikes.txt.
+If vehicle from the question is present in the "magazine", then program anserws the client question.
+Otherwise, program respond that vehicle is not avaliable.
+
+"Magazine" can "grow" over time but vehicles must be added in following format:
+Brand_Model_ProductionYear_EngineCapacity_Weight_NumberOfWheels_NumberOfWindshields_NumberOfEntrances
+Example: Toyota_Celica_1995_1.8_1200_4_6_3
+
+For bikes numbers of windshields and entrances are not important but it seems the most logical to put zero for both these values.
+Example: MTB_Indiana_2021_0_20_2_0_0
