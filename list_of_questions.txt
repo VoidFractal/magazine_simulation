@@ -1,0 +1,6 @@
+when_produced
+what_engine_capacity
+how_much_it_weighs
+how_many_wheels
+how_many_windshields
+how_many_entrances
